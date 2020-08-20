@@ -13,16 +13,16 @@
           <a href="#sobre" class="nav-link" id="scroll"><p id="fonte"> Sobre nós</p></a>
       </li>
       <li class="nav-item">
-          <a href="#servicos" class="nav-link" id="scroll" ><p id="fonte">Serviços</p></a>
+          <a href="#servicos" class="nav-link" id="scroll1" ><p id="fonte">Serviços</p></a>
       </li>
       <li class="nav-item">
-        <a href="#home" class="nav-link" id="scroll" ><img src="imagens/logo_sirius.gif" height="40"></a>
+        <a href="#home" class="nav-link" id="scroll2" ><img src="imagens/logo_sirius.gif" height="40"></a>
       </li>
         <li class="nav-item">
-            <a href="#conceitos" class="nav-link" id="scroll" ><p id="fonte">Conceitos</p></a>
+            <a href="#conceitos" class="nav-link" id="scroll3" ><p id="fonte">Conceitos</p></a>
       </li>
         <li class="nav-item">
-            <a href="#contato" class="nav-link" id="scroll" ><p id="fonte">Contato</p></a>
+            <a href="#contato" class="nav-link" id="scroll4" ><p id="fonte">Contato</p></a>
       </li>
     </ul>
   </div>  

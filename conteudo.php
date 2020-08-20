@@ -1,4 +1,5 @@
 <!-- script de rolagem -->
+
 <script type="text/javascript">
  jQuery(document).ready(function($) { 
      $("#scroll").click(function(event){        
@@ -6,6 +7,44 @@
          $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
     });
  });</script>
+
+ <!-- os codigos abaixo são todos copias do script acima com uma variavel do scroll diferente (variando de 1-5).
+  meu plano é criar uma variavel que mude esses numeros no scroll acima para reduzir a quantidade necessaria de scripts
+  (por exemplo, transformar o $("scroll") em $("scroll1") no script acima ao clicar em serviços no menu).-->
+
+<script type="text/javascript">
+ jQuery(document).ready(function($) { 
+     $("#scroll1").click(function(event){        
+         event.preventDefault();
+         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+    });
+ });</script>
+
+<script type="text/javascript">
+ jQuery(document).ready(function($) { 
+     $("#scroll2").click(function(event){        
+         event.preventDefault();
+         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+    });
+ });</script>
+
+<script type="text/javascript">
+ jQuery(document).ready(function($) { 
+     $("#scroll3").click(function(event){        
+         event.preventDefault();
+         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+    });
+ });</script>
+
+<script type="text/javascript">
+ jQuery(document).ready(function($) { 
+     $("#scroll4").click(function(event){        
+         event.preventDefault();
+         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+    });
+ });</script>
+
+ <!-- fim do script de rolagem -->
 
 <section id="home">
 <div class="home">
