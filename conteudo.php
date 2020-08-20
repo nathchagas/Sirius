@@ -12,8 +12,9 @@
         <div class="centralizador">
             <img class="centromeio" src="imagens/onglogo.png">
         </div>
-            <br />
-            <center><a href="#sobre" class="scroll" id="buttonp">CONHEÇA</a></center>
+            <p class="titulo1" >Dê um start no seu negócio</p>
+            <center>
+</br><a href="#sobre" class="scroll" id="buttonp">CONHEÇA</a></center>
         </div>
     </section>
     
@@ -30,7 +31,7 @@
     
  <div class="conteudo">          
 <div class="img_sobre">
-            <img class="pnglogo" src="imagens/pnglogo.png">
+</br></br></br></br> <img class="pnglogo" src="imagens/pnglogo.png">
     </div>
                 
         <div class="textosobre">
