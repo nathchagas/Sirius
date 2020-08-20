@@ -1,0 +1,386 @@
+/*INICIO CSS 'MENU'*/
+#fonte {
+        font-size: 20px;
+        color:#00d0c5;
+    }
+    
+.mudaCor{
+   background-color:#fff;
+
+    }
+/*FIM DO CSS 'MENU'*/
+
+/*CSS HOME*/
+.home{
+  height: 100vh;
+  background: url(imagens/slide.gif) no-repeat center center fixed; 
+  background-size: cover;
+  color:#00d0c5;
+}
+
+    .centralizador{
+  text-align: center;
+
+}
+
+    img.centromeio {
+  height: 50%;
+  width: 50%;
+  margin-top: 15%;
+}
+/*FIM DO CSS HOME*/
+
+/*INICIO CSS 'SOBRE'*/
+/* CONFIGURAÇÃO CSS DA SESSAÕ 2 - "SOBRE NÓS" */  
+    .titulo{
+  position:absolute;  
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color:#00d0c5;
+  margin-left: 80vh;
+  margin-top: 15vh;
+  font-size:5vh;
+    }
+
+   .barra{      
+  background-color:#00bacb;
+  height:8px;
+  width:10vh;
+  position: absolute;
+  margin-left: 80vh;
+  margin-top: 23vh;
+}
+      
+    .paragrafo{
+        text-align: justify;
+          }
+      
+    img.pnglogo{
+        width:80vh;
+        height:80vh;
+          }
+
+/* div que deixa a imagem responsiva */
+    .img_sobre{
+        border-width:2px;
+        width:45%;
+        height: 80vh;
+        float: left; /*esse comando permite que as divs - da imagem e do texto - fiquem uma do lado da outra */
+
+    }
+/* div que deixa o texto responsiva */
+    .textosobre{
+        border-width:2px;
+        width:55%;
+        height: 80vh;
+        float:right;  /*esse comando permite que as divs - da imagem e do texto - fiquem uma do lado da outra */
+
+
+    }
+/* Essa div mexe com a disposição do texto para que ele não fique muito colado à margem */
+    .curto{
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 10%;
+          }
+      
+    .divisor{
+        float: none;
+        width: 30%;
+        height:80vh;
+        background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+        } 
+    
+
+        .verde{
+          color:#00d0c5;
+        }
+    
+    /*.inicio {
+        width:50%;
+    } */
+       
+        
+ /* CONFIGURAÇÃO CSS DA SESSÃO 3 - "DESENVOLVEDORES" */    
+    #desenvolvedores{
+      background: url(imagens/Untitled-1.jpg) no-repeat center center; 
+      background-size: cover;
+
+    }   
+    
+      /* Three columns side by side */
+    .column {
+      float: left;
+      width: 30%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+      
+      /* Add some shadows to create a card effect */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+      /* Clear floats */
+      
+      .container {
+  padding: 16px;
+  background-color: #00e4bf;
+}
+.containern{ /* container que deixa a caixa da nathalia diferente */
+  padding: 16px;
+  background-color: #00acd0;
+      }
+
+    .title {
+      color: rgb(255, 255, 255);
+      font-family: 'Lato', sans-serif;
+    }
+
+    .cont{
+      color: rgb(255, 255, 255);
+      font-family: 'Lato', sans-serif;
+    }
+      
+      
+      
+      
+.titulo1{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color:#00d0c5;
+  font-size:5vh;
+  text-align:center;
+  
+}
+    
+    .row{
+        
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+/*FIM DO CSS 'SOBRE'*/
+  
+.servicos{
+   margin-left: 100px;
+    
+        
+    }
+    
+    
+.containeservicos {
+  padding: 16px;
+  background-color: #00e4bf;
+
+}
+
+.containeservicos1 {
+  padding: 16px;
+  background: url(imagens/Untitled-2.jpg) no-repeat center center; 
+
+}
+
+
+ #buttonp{
+  border-radius: 30px;
+  text-decoration: none;
+  color: #00d0c5;
+  border: 2px solid #00d0c5;
+  height: 60px;
+  line-height: 30px;
+  padding: 7px;
+  font-weight: bold;
+}
+
+#buttonp a:hover {
+  text-decoration: underline;
+  color: rgb(67, 209, 10);
+  background-color: rgb(0, 0, 0);
+ }
+#buttonp a:visited{
+  text-decoration: none;}
+
+
+#conceitos{
+  align-items: center;
+  justify-content: center;
+  width:130vh;
+  height:130vh;
+} 
+    
+.box{
+  height: 25vh;
+  width: 96vh;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0 8px;
+  margin-left: 97%;
+  margin-bottom: 3vh;
+}
+.sobrepor{
+  position: absolute;
+}
+
+.tituloconceito{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color:#00d0c5;
+  position: absolute;
+  margin-left: 10vh;
+  margin-top: 30vh;
+  font-size:6vh;
+}
+
+.tituloconceitoabaixo{
+  font-family: 'Lato', sans-serif;
+  color:#000000;
+  position: absolute;
+  margin-top: 49vh;
+  margin-left: 10vh;
+}
+    
+    
+.conceitostitulo{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.conceitosbox{
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+
+    .divisor1{
+  width: 100vh;
+  height:110vh;
+  margin-left: 100%;
+  background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+}
+    
+
+
+.fixarrodape {
+position:inherit;
+bottom:0;
+width:100%;
+text-align:center;
+height:32vh;
+font-size:20px;
+background: url(imagens/slide.gif) no-repeat center center; 
+font-family: 'Lato', sans-serif;
+font-size:3vh;
+color:white;
+}
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  color:#00d0c5;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #00d0c5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+
+    cursor: pointer;
+  
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+  background-color: #00e4bf;
+}
+
+/* Add a background color and some padding around the form */
+.formulario {
+  height: 50%;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+.titulos{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: SlateGray;
+    
+}
+
+#uniao_contato{
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+
+}
+
+    
+
+    
+    
+  /* CSS PARA DEIXAR A PÁGINA RESPONSIVA*/    
+       @media screen and (max-width: 600px) {
+   
+    .img_sobre {
+        width: 100%;
+    }   
+         .textosobre{
+             width: 100%;
+         }
+     
+          img.pnglogo{
+           
+           width: 100%;
+            height: 90%;
+           align-items: center;
+          }
+           
+           .curto{
+             width:90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            height: 100%;
+           }
+           
+           .column{
+               width: 90%;
+               margin-left: 5%;
+            margin-right: 5%;
+           }
+           
+           .home{
+        height: 170vh;  
+      }
+      
+      .servicos{
+          margin-left: auto;
+      }  
+    
+}  
