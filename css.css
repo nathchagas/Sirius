@@ -86,11 +86,11 @@
       
     .divisor{
         float: none;
-        width: 30%;
-        height:80vh;
+        width: 29.5%;
+        height: 100vh;
         background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
         } 
-    
+
 
         .verde{
           color:#00d0c5;
@@ -207,12 +207,12 @@
   align-items: center;
   justify-content: center;
   width:130vh;
-  height:130vh;
+  height:110vh;
 } 
     
 .box{
   height: 25vh;
-  width: 96vh;
+  width: 90vh;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0 8px;
@@ -254,8 +254,8 @@
 
 
     .divisor1{
-  width: 100vh;
-  height:110vh;
+  width: 51.6vh;
+  height:120vh;
   margin-left: 100%;
   background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
 }

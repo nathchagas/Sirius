@@ -18,18 +18,15 @@
     </section>
     
     <section id="sobre">
+         
             <div class="espaco">
-                <div class="inicio">
+              
+                 <div class="inicio">
             <p class="titulo">Sobre nós</p>
      <hr class="barra">
-                    
+            
                     </div>
                 
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
     
  <div class="conteudo">          
 <div class="img_sobre">
@@ -38,6 +35,10 @@
                 
         <div class="textosobre">
             <div class="curto">
+                <br />
+                <br />
+                <br />
+                <br />
             <p class="paragrafo">A Sirius Web Design é uma empresa criada para fins didáticos de prestação de serviços para a elaboração e manutenção de sites e páginas web. Criada com o intuito de atender as necessidades do Trabalho de Conclusão  de Curso dos alunos do curso ténico de Informática para Internet Integrado ao Ensino Médio do <b class="verde">Intituto Federal de São Paulo - Campus Guarulhos</b>, estamos abertos a comunidade externa afim de oferecer um trabalho de qualidade. </p>
             <p class="paragrafo">A respeito da origem do nome de nossa empresa, Sirius é a estrela mais brilhante visível a olho nu no céu noturno e pode ser vista a partir de qualquer ponto na Terra. 
             Sendo a principal de sua constelação, é muitas vezes apelidada de <b class="verde">Estrela do Cão (Dog-Star)</b>, mas o seu termo Sirius deriva do grego seirios <b class="verde"><i>("brilhante, ou a escaldante")</i></b>. Possui registros remanescentes do Egito Antigo, os quais acreditavam que a mesma possuia grande influência nas estações do ano, homens e mulheres.</p>
@@ -184,46 +185,38 @@
 
         <div class="divisor1"></div>
     </div> <!-- fecha a div conceitos -->
-</section>
-<br />
+
+        <div id="contato">
+
+          <div class="titulo1"><br/><br/>Contato</div>
 
 
-<div id ="navleft">
+          <div id="uniao_contato">
 
-  <section class="espaco"> 
+        <div class ="formulario">
+        <form action="action_page.php">
 
-<div id="contato">
+            <label class="titulo_form" for="fname">Nome completo</label>
+            <input type="text" id="fname" name="nome">
 
-  <div class="titulo1"><br/><br/>Contato</div>
+            <label class="titulo_form" for="lname">Email</label>
+            <input type="text" id="lname" name="email" >
 
+            <label class="titulo_form" for="lname">Assunto</label>
+            <input type="text" id="lname" name="assunto">
 
-  <div id="uniao_contato">
-    
-<div class ="formulario">
-<form action="action_page.php">
+            <label class="titulo_form" for="subject">Mensagem</label>
+            <textarea id="subject" name="subject" style="height:60px"></textarea>
 
-    <label class="titulo_form" for="fname">Nome completo</label>
-    <input type="text" id="fname" name="nome">
+            <input type="submit" value="Submit">
 
-    <label class="titulo_form" for="lname">Email</label>
-    <input type="text" id="lname" name="email" >
-    
-    <label class="titulo_form" for="lname">Assunto</label>
-    <input type="text" id="lname" name="assunto">
+          </form></div>
 
-    <label class="titulo_form" for="subject">Mensagem</label>
-    <textarea id="subject" name="subject" style="height:60px"></textarea>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.5785476321253!2d-46.53908158538711!3d-23.43958686299075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef51fbe5f8681%3A0x1f8cf929993dc97!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%20IFSP%20Guarulhos!5e0!3m2!1spt-BR!2sbr!4v1584387797174!5m2!1spt-BR!2sbr" width="50%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-    <input type="submit" value="Submit">
+        </div></div>
+    </section>
 
-  </form></div>
-
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.5785476321253!2d-46.53908158538711!3d-23.43958686299075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef51fbe5f8681%3A0x1f8cf929993dc97!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%20IFSP%20Guarulhos!5e0!3m2!1spt-BR!2sbr!4v1584387797174!5m2!1spt-BR!2sbr" width="50%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-</div></div>
-</section></div>
-
-    
  <div id ="footer"> 
 
      <footer class="fixarrodape"><br/>
