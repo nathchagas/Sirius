@@ -183,7 +183,7 @@
 }
 
 
- #buttonp{
+ .buttonp{
   border-radius: 30px;
   text-decoration: none;
   color: #00d0c5;
@@ -194,12 +194,12 @@
   font-weight: bold;
 }
 
-#buttonp a:hover {
+.buttonp a:hover {
   text-decoration: underline;
   color: rgb(67, 209, 10);
   background-color: rgb(0, 0, 0);
  }
-#buttonp a:visited{
+.buttonp a:visited{
   text-decoration: none;}
 
 

@@ -44,6 +44,36 @@
     });
  });</script>
 
+ <!-- scroll do conheça  -->
+
+<script type="text/javascript">
+ jQuery(document).ready(function($) { 
+     $("#scroll5").click(function(event){        
+         event.preventDefault();
+         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+    });
+ });</script>
+
+ <!-- scroll do conheça os desenvolvedores  -->
+
+<script type="text/javascript">
+ jQuery(document).ready(function($) { 
+     $("#scroll6").click(function(event){        
+         event.preventDefault();
+         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+    });
+ });</script>
+
+<!-- scroll do contatos -->
+
+<script type="text/javascript">
+ jQuery(document).ready(function($) { 
+     $("#scroll7").click(function(event){        
+         event.preventDefault();
+         $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+    });
+ });</script>
+
  <!-- fim do script de rolagem -->
 
 <section id="home">
@@ -53,7 +83,7 @@
         </div>
             <p class="titulo1" >Dê um start no seu negócio</p>
             <center>
-</br><a href="#sobre" class="scroll" id="buttonp">CONHEÇA</a></center>
+</br><a href="#sobre" id="scroll5"  class="buttonp">CONHEÇA</a></center>
         </div>
     </section>
     
@@ -83,7 +113,7 @@
             <p class="paragrafo">A respeito da origem do nome de nossa empresa, Sirius é a estrela mais brilhante visível a olho nu no céu noturno e pode ser vista a partir de qualquer ponto na Terra. 
             Sendo a principal de sua constelação, é muitas vezes apelidada de <b class="verde">Estrela do Cão (Dog-Star)</b>, mas o seu termo Sirius deriva do grego seirios <b class="verde"><i>("brilhante, ou a escaldante")</i></b>. Possui registros remanescentes do Egito Antigo, os quais acreditavam que a mesma possuia grande influência nas estações do ano, homens e mulheres.</p>
             <p class="paragrafo">Em nossa identidade visual, buscamos representar de maneira simplificada e clara a letra -S de <b class="verde">Sirius</b>. Tendo sobreposta uma estrela acompanhada de um campo gravitacional, a ideia era a de transmitir de maneira rápida a conexão entre nossa empresa e o logo.</p>
-            <p><a href="#desenvolvedores" class="scroll" id="buttonp">Conheça os desenvolvedores</a></p>
+            <p><a href="#desenvolvedores" id="scroll6" class="buttonp" >Conheça os desenvolvedores</a></p>
 
         </div>
 
@@ -194,7 +224,7 @@
 
             <br/>
             <br/>
-            <a href="#contato" class="scroll" id="buttonp">Contato</a>
+            <a href="#contato" id="scroll7" class="buttonp">Contato</a>
          </p>     
       
             <br/>
